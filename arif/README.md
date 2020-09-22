@@ -1,5 +1,7 @@
 # JavaScript
-Learning Purpose. Here I used Quokka extension to show the result of console.log
+- Learning Purpose.
+- Here I used Quokka extension to show the result of console.
+- JavaScript is Case Sensitive. Meaning, `const` and `CONST` or `Const` is not same.
 
 ---
 
@@ -9,6 +11,9 @@ Learning Purpose. Here I used Quokka extension to show the result of console.log
 #### What is Programming?
 Programming is a set of instruction which our computer can read, understand and produce and output.
 
+#### Data types
+- Primitive: `Primitive Types are Defined by JavaScript.` *Number, String, Boolean, undefined, null*
+- Object: `Object Types are User Defined Data Type.` *Array, Object, Function*
 
 <!-- folder -->
 # Logic and Conditions

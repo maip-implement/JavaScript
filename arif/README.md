@@ -23,6 +23,10 @@ Programming is a set of instruction which our computer can read, unde
 - NaN
 
 #### Truthy Values
+- 'abc'
+- 123
+- Infinity
+and so on
 
 <!-- folder -->
 # Logic and Conditions

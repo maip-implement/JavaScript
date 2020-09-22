@@ -1,0 +1,11 @@
+var number = 1254.58;
+console.log(number)
+console.log(Math.round(number))
+console.log(Math.floor(number))
+console.log(Math.ceil(number))
+console.log(Math.pow(2, 3))
+console.log(Math.max(100,200,300, 400))
+console.log(Math.max(100,200,300, 400))
+console.log(Math.min(100,200,300, 400))
+console.log(Math.round(Math.sqrt(12)))
+console.log(Math.round(Math.random() * 10 + 1)) 

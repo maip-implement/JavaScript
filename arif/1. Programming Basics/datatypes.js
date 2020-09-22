@@ -18,3 +18,17 @@ console.log('abc' * 5) // NaN
 
 // default value
 console.log(Number.MAX_VALUE)
+
+
+// ******* String *******
+const str1 = 'ab c'
+const str2 = "ab  c"
+const str3 = `ab   c`
+const str4 = String('xyz')
+const str5 = String(12.3)
+
+console.log(str1) // ab c
+console.log(str2) // ab  c
+console.log(str3) // ab   c
+console.log(str4) // xyz
+console.log(str5) // 12.3

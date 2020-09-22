@@ -15,6 +15,15 @@ Programming is a set of instruction which our computer can read, unde
 - Primitive: `Primitive Types are Defined by JavaScript.` *Number, String, Boolean, undefined, null*
 - Object: `Object Types are User Defined Data Type.` *Array, Object, Function*
 
+#### Falsy Values
+- ''
+- 0
+- null
+- undefined
+- NaN
+
+#### Truthy Values
+
 <!-- folder -->
 # Logic and Conditions
 

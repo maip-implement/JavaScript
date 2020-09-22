@@ -19,6 +19,14 @@ console.log('abc' * 5) // NaN
 // default value
 console.log(Number.MAX_VALUE)
 
+// Hexadecimal is a Base 16 Number system (start with 0x or 0X)
+console.log(0xff) // 255
+console.log(0Xab) // 171
+
+// Octal is a Base 8 Number system (start with 0)
+console.log(077) // 63
+console.log(0756) // 494
+
 
 // ******* String *******
 const str1 = 'ab c'
@@ -51,3 +59,4 @@ console.log(name) // null
 console.log(age) // undefined
 
 // null is a Special Type Used as a Absence of an Object
+

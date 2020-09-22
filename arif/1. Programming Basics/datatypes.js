@@ -32,3 +32,22 @@ console.log(str2) // ab  c
 console.log(str3) // ab   c
 console.log(str4) // xyz
 console.log(str5) // 12.3
+
+
+// ******* Boolean *******
+const bT = true
+const bF = false
+const bT1 = Boolean(true)
+const bF1 = Boolean(false)
+
+console.log(bT, bF, bT1, bF1) // true false true false
+
+
+// ******* Undefined vs Null *******
+let name = null
+let age
+
+console.log(name) // null
+console.log(age) // undefined
+
+// null is a Special Type Used as a Absence of an Object

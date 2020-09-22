@@ -1,7 +1,7 @@
 //017. What is Statements in Javascript
 
 
-console.log('Hello World!!!')
+console.log('Hello World!')
 var str = 'String'
 var number = 10+(20/5)*2
 

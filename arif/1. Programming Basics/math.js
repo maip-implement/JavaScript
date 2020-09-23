@@ -12,5 +12,5 @@ console.log(Math.sqrt(num)) // 3.513545218152173
 console.log(Math.pow(2, 3)) // 8
 console.log(Math.random())  // 0.87....
 console.log(Math.round(Math.random() * 10 + 1))  // 5
-console.log(Math.max(3, 5, 7))
-console.log(Math.min(3, 5, 7))
+console.log(Math.max(3, 5, 7))  // 7
+console.log(Math.min(3, 5, 7))  // 3

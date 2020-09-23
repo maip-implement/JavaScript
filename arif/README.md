@@ -55,13 +55,15 @@ Programming is a set of instruction which our computer can read, unde
 
 # Loops and Repetition
 There are mainly `three types` of loops.
-- `For Loop`
-- `While Loop`
-- `Do While Loop`
+- `For` Loop
+- `While` Loop
+- `Do While` Loop
+- `break`, `continue`
 
 <br /><br />
 
 # Handling Strings
+- String `Literal` vs `Constructor`
 
 <br /><br />
 

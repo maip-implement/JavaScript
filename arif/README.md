@@ -1,87 +1,146 @@
+![JavaSctipt](https://raw.githubusercontent.com/maip-implement/JavaScript/arif/js.png)
 # JavaScript
 - Learning Purpose.
-- Here I used Quokka extension to show the result of console.
+- Here I used `Quokka` extension to show the result of console.
+- I will not use ~~`var`~~ here.
 - JavaScript is Case Sensitive. Meaning, `const` and `CONST` or `Const` is not same.
+- [Repository Link](https://github.com/maip-implement/JavaScript) : `https://github.com/maip-implement/JavaScript`
+>My github profile: [Md Arif Hossain](https://github.com/arifpro "Md Arif Hossain")
 
----
-
+<br /><br /><br />
 <!-- folder -->
-# Programming Basics
+# Programming Basics
 
-#### What is Programming?
+## What is Programming?
 Programming is a set of instruction which our computer can read, understand and produce and output.
 
-#### Data types
-- Primitive: `Primitive Types are Defined by JavaScript.` *Number, String, Boolean, undefined, null*
-- Object: `Object Types are User Defined Data Type.` *Array, Object, Function*
+### Data types
+- ***Primitive:*** `Primitive Types are Defined by JavaScript.` 
+  * Number
+  * String
+  * Boolean
+  * undefined
+  * null
+- __*Object:*__ `Object Types are User Defined Data Type.` 
+  * Array
+  * Object
+  * Function
 
-#### Falsy Values
-- ''
-- 0
-- null
-- undefined
-- NaN
+### Falsy Values
+  1. ''
+  1. 0
+  1. null
+  1. undefined
+  1. NaN
 
-#### Truthy Values
-- 'abc'
-- 123
-- Infinity
-and so on
+### Truthy Values
+  1. 'abc'
+  2. 123
+  3. Infinity
+  4. **.....**
 
+<br /><br />
 <!-- folder -->
-# Logic and Conditions
+# Logic and Conditions
 
+<br /><br />
 <!-- folder -->
-# Loops and Repetition
+# Loops and Repetition
 
+<br /><br />
 <!-- folder -->
-# Handling Strings
+# Handling Strings
 
+<br /><br />
 <!-- folder -->
-# Arrays
+# Arrays
 
+<br /><br />
 <!-- folder -->
-# Scope and Closure
+# Scope and Closure
 
+<br /><br />
 <!-- folder -->
-# Functional Programming
+# Functional Programming
 
+<br /><br />
 <!-- folder -->
-# Functions
+# Functions
 
+<br /><br />
 <!-- folder -->
-# Objects
+# Objects
 
+<br /><br />
 <!-- folder -->
-# OOP Intro
+# OOP Intro
 
+<br /><br />
 <!-- folder -->
-# OOP with JS
+# OOP with JS
 
+<br /><br />
 <!-- folder -->
-# Prototype
+# Prototype
 
+<br /><br />
 <!-- folder -->
-# Prototypical Inheritance
+# Prototypical Inheritance
 
+<br /><br />
 <!-- folder -->
-# ES6
+# ES6
 
+<br /><br />
 <!-- folder -->
-# Project
+# Project
 
+<br /><br />
 <!-- folder -->
-# DOM
+# DOM
 
+<br /><br />
 <!-- folder -->
-# Asynchronous Programming
+# Asynchronous Programming
 
+<br /><br />
 <!-- folder -->
-# Error Handling
+# Error Handling
 
+<br /><br />
 <!-- folder -->
-# Javascript Libraries
+# Javascript Libraries
 
+<br /><br />
 <!-- folder -->
-# Future Road Map
+# Future Road Map
+
+---
+___
+
+<br />
+
+***Git Clone***
+```bash
+1. git clone https://github.com/maip-implement/JavaScript.git
+2. git fetch
+3. git checkout arif
+```
+
+***ES6 function***
+```javascript
+const sum = (x, y) => x + y
+```
+
+***Bio***
+| Title    | Link                                |
+| -------- | ----------------------------------- | 
+| Website  | https://proarif.com                 |
+| Github   | https://github.com/arifpro          |
+| Facebook | https://www.facebook.com/proarif0   |
+| LinkedIn | https://www.linkedin.com/in/proarif |
+| Medium   | https://medium.com/@proarif         |
+| Twitter  | https://twitter.com/proarifBD       |
+| Email    | arif.swfu@outlook.com               |
+|
 

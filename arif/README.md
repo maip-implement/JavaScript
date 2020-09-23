@@ -64,6 +64,14 @@ There are mainly `three types` of loops.
 
 # Handling Strings
 - String `Literal` vs `Constructor`
+- Escape Notation (`\`)
+    * New line: `\n`
+    * Tab: `\t`
+    * Carriage Return: `\r`
+    * Vertical Tab: `\v`
+    * Backspace: `\b`
+    * Form Feed: `\f`
+    * etc......
 
 <br /><br />
 

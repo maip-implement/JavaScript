@@ -39,6 +39,11 @@ Programming is a set of instruction which our computer can read, unde
   3. Infinity
   4. **.....**
 
+### Comments
+- `// This is a single line comment.`
+- `/* This is a multiline comment. */`
+> We use comment for note something and so on...
+
 <br /><br />
 <!-- folder -->
 # Logic and Conditions

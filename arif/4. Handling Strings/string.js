@@ -17,3 +17,15 @@ console.log(String(n))  // 5
 // Escape Notation
 console.log('This is a \'string\'')  // This is a 'string'
 console.log('This is a \\string')  // This is a \string
+
+
+
+// String Comparison
+const name1 = 'Arif'
+const name2 = 'arif'
+
+console.log(name1 >= name2)  // false
+console.log('a' > 'A')  // true
+console.log('aabbccz' > 'aabbccZ')  // true
+
+console.log('05' == 5)  // true

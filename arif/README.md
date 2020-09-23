@@ -72,6 +72,8 @@ There are mainly `three types` of loops.
     * Backspace: `\b`
     * Form Feed: `\f`
     * etc......
+- String `Comparison`: JavaScript uses ***`Lexicographic`*** system to compare two string
+> __Lexical Order__: `z, y, x, ..., b, a, Z, Y, X, ..., B, A`
 
 <br /><br />
 

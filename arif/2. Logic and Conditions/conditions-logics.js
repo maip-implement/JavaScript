@@ -13,7 +13,8 @@ if (a<b && a<c) {
 
 if (c % 2 === 0) console.log(c, 'is even')  // 20 is even
 
-console.log(c%2 === 0 ? (c + ' is even') : '')  // 20 is even
+// condition ? true side : false side
+console.log(a, 'is', a%2 === 0 ? 'even' : 'odd')  // 5 is odd
 
 
 
@@ -48,3 +49,15 @@ switch (today) {
 }
 
 
+// logical and or
+const name = 'Arif'
+const name2 = ''
+
+console.log( name || 'Md Arif Hossain')  // Arif
+console.log( name2 || 'Md Arif Hossain')  // Md Arif Hossain
+
+const isOk = false
+const isOk2 = true
+isOk && console.log('Everything is ok')  // 
+console.log(isOk && 'Everything is ok')  // false
+isOk2 && console.log( 'Everything is ok')  // Everything is ok

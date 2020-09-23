@@ -49,6 +49,7 @@ Programming is a set of instruction which our computer can read, unde
 # Logic and Conditions
 - `if`, `else if`, `else`
 - `switch`
+- `&&`, `||`, `!`
 
 <br /><br />
 

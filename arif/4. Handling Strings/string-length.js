@@ -16,4 +16,3 @@ console.log(len('Md Arif Hossain'))  // 15
 
 // default method to get length of a string
 console.log('abcde'.length)  // 5
-console.log(len('Md Arif Hossain'))  // 15

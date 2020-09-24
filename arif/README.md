@@ -83,6 +83,24 @@ There are mainly `three types` of loops.
 ### What is Array?
 Array is a `Data Structure` where we can `organize multiple data` under `a single variable`.
 
+### Custom length method
+```javascript
+const len = arr => {
+    let count = 0
+
+    while (true) {
+        if (arr[count] === undefined) break
+        count++
+    }
+
+    return count
+}
+
+
+console.log(len([1, 2, 3, 'a', 1.45, 'B']))  // 6
+console.log(len('Md Arif Hossain')) // 15
+```
+
 <br /><br />
 
 # Scope and Closure

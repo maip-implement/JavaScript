@@ -11,7 +11,7 @@
 
 # Programming Basics
 
-## What is Programming?
+### What is Programming?
 Programming is a set of instruction which our computer can read, understand and produce and output.
 
 ### Data types
@@ -80,6 +80,8 @@ There are mainly `three types` of loops.
 <br /><br />
 
 # Arrays
+### What is Array?
+Array is a `Data Structure` where we can `organize multiple data` under `a single variable`.
 
 <br /><br />
 

@@ -42,6 +42,7 @@ console.log(longStr.substr(5))  // FGHIJ
 console.log(longStr.substr(5, 2))  // FG
 
 console.log(longStr.charAt(3))  // D
+console.log(longStr.indexOf('G'))  // 6
 console.log(longStr.startsWith('A'))  // true
 
 console.log(great.concat(' ', name).endsWith('Arif'))  // true

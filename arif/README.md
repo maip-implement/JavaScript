@@ -1,4 +1,4 @@
-![JavaSctipt](https://raw.githubusercontent.com/maip-implement/JavaScript/arif/arif/js.png)
+![JavaSctipt](https://raw.githubusercontent.com/maip-implement/JavaScript/arif/arif/js.png =100x20)
 # JavaScript
 - Learning Purpose.
 - Here I used `Quokka` extension to show the result of console.
@@ -73,6 +73,8 @@ There are mainly `three types` of loops.
     * Form Feed: `\f`
     * etc......
 - String `Comparison`: JavaScript uses ***`Lexicographic`*** system to compare two string
+- Some default method in JavaSctipt String
+- Get string `length` by `custom function`
 > __Lexical Order__: `z, y, x, ..., b, a, Z, Y, X, ..., B, A`
 
 <br /><br />

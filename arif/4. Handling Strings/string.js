@@ -29,3 +29,26 @@ console.log('a' > 'A')  // true
 console.log('aabbccz' > 'aabbccZ')  // true
 
 console.log('05' == 5)  // true
+
+
+
+// methods of strings
+const great = 'I am'
+const name = 'Arif'
+console.log(great.concat(' ', name))  // I am Arif
+
+const longStr = 'ABCDEFGHIJ'
+console.log(longStr.substr(5))  // FGHIJ
+console.log(longStr.substr(5, 2))  // FG
+
+console.log(longStr.charAt(3))  // D
+console.log(longStr.startsWith('A'))  // true
+
+console.log(great.concat(' ', name).endsWith('Arif'))  // true
+
+console.log(name.toUpperCase())  // ARIF
+console.log(name.toLowerCase())  // arif
+
+console.log('  Arif  '.trim())  //Arif
+console.log('Arif'.split(''))  // ['A', 'r', 'i', 'f']
+console.log('Ar,if'.split(','))  // ['Ar', 'if']

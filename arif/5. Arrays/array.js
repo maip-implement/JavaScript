@@ -16,3 +16,33 @@ console.log(arr[9])  /// undefined
 const arr2 = Array(4, 'a', 3.5)
 console.log(arr2)  // [ 4, 'a', 3.5 ]
 
+
+
+
+
+// Multi Dimensional Array
+const arr2D = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+console.log(arr2D)  // [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]
+
+const arr3D = [
+    [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ],
+    [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ],
+    [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ],
+]
+console.log(arr3D)

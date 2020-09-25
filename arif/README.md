@@ -88,6 +88,8 @@ Array is a `Data Structure` where we can `organize multiple data` under `a singl
 - `Insert`, `Remove` and `Update`
 - We can use `splice()` method to `add`, `delete` and `edit` an array
 - Search Data from array
+- `Multi Dimensional` Array
+- `Reverse` array elements
 
 
 ## Custom length method
@@ -126,6 +128,21 @@ const arr = [3, 6, 2, 7, 4]
 console.log( isFind(arr, 7) )  // true
 console.log( isFind(arr, 50) )  // false
 ```
+## Custom reverse method for array
+```javascript
+const reverse = array => {
+    for (let i=0; i<(array.length / 2); i++) {
+        let temp = array[i]
+        array[i] = array[array.length - 1 - i]
+        array[array.length - 1 - i] = temp
+    }
+
+    return array
+}
+
+console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
+```
+
 
 <br /><br />
 

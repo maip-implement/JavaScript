@@ -11,7 +11,6 @@ console.log(arr)  // [ 6, 5, 7, 10, 8 ]
 
 
 
-
 // Insert value on array
 const arr1 = [1, 2, 3, 4, 5]
 
@@ -53,3 +52,38 @@ console.log(arr3)  // [ 1, 2, 10, 4, 5 ]
 
 arr3.splice(2, 1, 20)
 console.log(arr3)  // [ 1, 2, 20, 4, 5 ]
+
+
+
+
+// traverse 2d array
+const arr2D = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for (let i=0; i<arr2D.length; i++) {
+    for (let j=0; j<arr2D[i].length; j++) {
+        console.log('Element', i, ':', arr2D[i][j])
+    }
+}
+
+
+
+
+// Reverse an Array
+const array = [1, 2, 3, 4, 5]
+
+// console.log(array.reverse())  // [5, 4, 3, 2, 1]
+
+const reverse = array => {
+    for (let i=0; i<(array.length / 2); i++) {
+        let temp = array[i]
+        array[i] = array[array.length - 1 - i]
+        array[array.length - 1 - i] = temp
+    }
+
+    return array
+}
+console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]

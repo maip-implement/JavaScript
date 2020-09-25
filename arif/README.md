@@ -87,6 +87,7 @@ Array is a `Data Structure` where we can `organize multiple data` under `a singl
 - `Traverse` an Array
 - `Insert`, `Remove` and `Update`
 - We can use `splice()` method to `add`, `delete` and `edit` an array
+- Search Data from array
 
 
 ## Custom length method
@@ -105,6 +106,25 @@ const len = arr => {
 
 console.log(len([1, 2, 3, 'a', 1.45, 'B']))  // 6
 console.log(len('Md Arif Hossain')) // 15
+```
+## Custom search method for array
+```javascript
+const isFind = (arr, value) => {
+    let isFound = false
+
+    for (let i=0; i<arr.length; i++) {
+        if (arr[i] === value) {
+            isFound = true
+            break
+        }
+    }
+
+    return isFound
+}
+
+const arr = [3, 6, 2, 7, 4]
+console.log( isFind(arr, 7) )  // true
+console.log( isFind(arr, 50) )  // false
 ```
 
 <br /><br />

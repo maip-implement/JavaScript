@@ -21,3 +21,6 @@ forEach(arr, function(value, index, array){
 
 console.log(sum)
 console.log(sum2)
+
+
+//forEach and map method are almost same but difference between forEach and map method is forEach will change the original array and map will create a different array from the original one.

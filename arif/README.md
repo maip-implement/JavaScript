@@ -153,6 +153,7 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 - `Create` and `Update` object property
 - `Compare` of two objects
 - `Iterate` an object
+- Default `methods` for object
 
 
 <br /><br />

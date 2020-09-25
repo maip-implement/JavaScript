@@ -67,3 +67,8 @@ console.log(point1)  // { x: 30, y: 20, z: 15 }
 point1.a = 50
 console.log(point1)  // { x: 30, y: 20, z: 15, a: 50 }
 
+
+// delete a property
+console.log(point1)  // { x: 30, y: 20, z: 15, a: 50 }
+delete point1.z
+console.log(point1)  // { x: 30, y: 20, a: 50 }

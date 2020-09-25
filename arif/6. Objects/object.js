@@ -1,4 +1,4 @@
-// Object litaral
+// Object literal
 const obj = {}
 console.log(obj)  // {}
 console.log(typeof obj)  // object
@@ -32,3 +32,38 @@ console.log(obj2)  // { num: 5 }
 const obj3 = new Object()
 obj3.num = 5
 console.log(obj3)  // { num: 5 }
+
+
+
+
+// get value from object
+const point = {
+    x: 10,
+    y: 20,
+    z: 15
+}
+
+// dot notation
+console.log(point.x)  // 10
+console.log(point.x + point.y)  // 30
+
+// array notation
+console.log(point['z'])  // 15
+
+const show = 'x'
+console.log(point[show])  // 10
+
+
+// update or create
+const point1 = {
+    x: 10,
+    y: 20,
+    z: 15
+}
+
+point1.x = 30
+console.log(point1)  // { x: 30, y: 20, z: 15 }
+
+point1.a = 50
+console.log(point1)  // { x: 30, y: 20, z: 15, a: 50 }
+

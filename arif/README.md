@@ -83,6 +83,7 @@ There are mainly `three types` of loops.
 ### What is Array?
 Array is a `Data Structure` where we can `organize multiple data` under `a single variable`.
 
+
 ### Topics
 - `Traverse` an Array
 - `Insert`, `Remove` and `Update`
@@ -146,11 +147,10 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 
 <br /><br />
 
-# Scope and Closure
+# Objects
+- Object `Literal` and `Constructor`
+- `Dot` vs `Array` notation
 
-<br /><br />
-
-# Functional Programming
 
 <br /><br />
 
@@ -158,7 +158,11 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 
 <br /><br />
 
-# Objects
+# Functional Programming
+
+<br /><br />
+
+# Scope and Closure
 
 <br /><br />
 
@@ -186,7 +190,7 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 
 <br /><br />
 
-# DOM
+# Error Handling
 
 <br /><br />
 
@@ -194,7 +198,7 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 
 <br /><br />
 
-# Error Handling
+# DOM (Document Object Model)
 
 <br /><br />
 
@@ -203,6 +207,10 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 <br /><br />
 
 # Future Road Map
+
+<br /><br />
+
+# Weather App
 
 ---
 ___

@@ -83,7 +83,13 @@ There are mainly `three types` of loops.
 ### What is Array?
 Array is a `Data Structure` where we can `organize multiple data` under `a single variable`.
 
-### Custom length method
+### Topics
+- `Traverse` an Array
+- `Insert`, `Remove` and `Update`
+- We can use `splice()` method to `add`, `delete` and `edit` an array
+
+
+## Custom length method
 ```javascript
 const len = arr => {
     let count = 0

@@ -31,10 +31,3 @@ setTimeout(function () {
     console.log('setTimeout')  // setTimeout
 }, 100)
 
-
-// * We can Pass Function as an Arguments
-
-
-
-// * We can return Functions from Another Function
-

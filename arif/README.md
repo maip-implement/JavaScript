@@ -165,6 +165,9 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 - `arguments` keyword: Works only with `function` keyword, `not work in ES6` version function declaration.
     * __Work :__ `function test() { console.log(arguments.length) }`
     * __Not Work :__ `const test = () => console.log(arguments.length)`
+- Function `expression`
+- `anonymous` function
+- `setTimeout`
 
 <br /><br />
 

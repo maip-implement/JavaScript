@@ -163,7 +163,8 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 - __Perameter :__ `function test(a, b) {}`. Here a and b is perameter of the function
 - __Argument :__ `test(5, 7)`. Here we passing data to the function and this data is called argument
 - `arguments` keyword: Works only with `function` keyword, `not work in ES6` version function declaration.
-    * function
+    * __Work :__ `function test() { console.log(arguments.length) }`
+    * __Not Work :__ `const test = () => console.log(arguments.length)`
 
 <br /><br />
 

@@ -53,3 +53,19 @@ function test1() {
 
 console.log(test1(10, 20, 30))  // 60
 
+
+
+
+// return multiple value
+const person = (name, email) => {
+    return {
+        name: name,
+        email: email
+    }
+    console.log('I will never be shown')
+}
+
+const p1 = person('Arif', 'arif@swfu.edu.cn')
+
+console.log(p1)  // { name: name, email: email }
+console.log(p1.name)  // Arif

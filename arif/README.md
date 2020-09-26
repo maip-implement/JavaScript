@@ -1,4 +1,4 @@
-![JavaSctipt](https://raw.githubusercontent.com/maip-implement/JavaScript/arif/arif/js.png)
+![JavaSctipt](https://raw.githubusercontent.com/maip-implement/JavaScript/arif/arif/js.png =100x20)
 # JavaScript
 - Learning Purpose.
 - Here I used `Quokka` extension to show the result of console.
@@ -11,7 +11,7 @@
 
 # Programming Basics
 
-## What is Programming?
+### What is Programming?
 Programming is a set of instruction which our computer can read, understand and produce and output.
 
 ### Data types
@@ -73,15 +73,98 @@ There are mainly `three types` of loops.
     * Form Feed: `\f`
     * etc......
 - String `Comparison`: JavaScript uses ***`Lexicographic`*** system to compare two string
+- Some default method in JavaSctipt String
+- Get string `length` by `custom function`
 > __Lexical Order__: `z, y, x, ..., b, a, Z, Y, X, ..., B, A`
 
 <br /><br />
 
 # Arrays
+### What is Array?
+Array is a `Data Structure` where we can `organize multiple data` under `a single variable`.
+
+
+### Topics
+- `Traverse` an Array
+- `Insert`, `Remove` and `Update`
+- We can use `splice()` method to `add`, `delete` and `edit` an array
+- Search Data from array
+- `Multi Dimensional` Array
+- `Reverse` array elements
+
+
+## Custom length method
+```javascript
+const len = arr => {
+    let count = 0
+
+    while (true) {
+        if (arr[count] === undefined) break
+        count++
+    }
+
+    return count
+}
+
+
+console.log(len([1, 2, 3, 'a', 1.45, 'B']))  // 6
+console.log(len('Md Arif Hossain')) // 15
+```
+## Custom search method for array
+```javascript
+const isFind = (arr, value) => {
+    let isFound = false
+
+    for (let i=0; i<arr.length; i++) {
+        if (arr[i] === value) {
+            isFound = true
+            break
+        }
+    }
+
+    return isFound
+}
+
+const arr = [3, 6, 2, 7, 4]
+console.log( isFind(arr, 7) )  // true
+console.log( isFind(arr, 50) )  // false
+```
+## Custom reverse method for array
+```javascript
+const reverse = array => {
+    for (let i=0; i<(array.length / 2); i++) {
+        let temp = array[i]
+        array[i] = array[array.length - 1 - i]
+        array[array.length - 1 - i] = temp
+    }
+
+    return array
+}
+
+console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
+```
+
 
 <br /><br />
 
-# Scope and Closure
+# Objects
+- Object `Literal` and `Constructor`
+- `Dot` vs `Array` notation
+- `Create` and `Update` object property
+- `Compare` of two objects
+- `Iterate` an object
+- Default `methods` for object
+
+
+<br /><br />
+
+# Functions
+- Reduce repetated code by function
+- __Perameter :__ `function test(a, b) {}`. Here a and b is perameter of the function
+- __Argument :__ `test(5, 7)`. Here we passing data to the function and this data is called argument
+- `arguments` keyword: Works only with `function` keyword, `not work in ES6` version function declaration.
+    * __Work :__ `function test() { console.log(arguments.length) }`
+    * __Not Work :__ `const test = () => console.log(arguments.length)`
 
 <br /><br />
 
@@ -89,11 +172,7 @@ There are mainly `three types` of loops.
 
 <br /><br />
 
-# Functions
-
-<br /><br />
-
-# Objects
+# Scope and Closure
 
 <br /><br />
 
@@ -121,7 +200,7 @@ There are mainly `three types` of loops.
 
 <br /><br />
 
-# DOM
+# Error Handling
 
 <br /><br />
 
@@ -129,7 +208,7 @@ There are mainly `three types` of loops.
 
 <br /><br />
 
-# Error Handling
+# DOM (Document Object Model)
 
 <br /><br />
 
@@ -138,6 +217,10 @@ There are mainly `three types` of loops.
 <br /><br />
 
 # Future Road Map
+
+<br /><br />
+
+# Weather App
 
 ---
 ___

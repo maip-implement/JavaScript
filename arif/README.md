@@ -11,10 +11,10 @@
 
 # Programming Basics
 
-### What is Programming?
+### __What is Programming?__
 Programming is a set of instruction which our computer can read, understand and produce and output.
 
-### Data types
+### __Data types__
 - ***Primitive:*** `Primitive Types are Defined by JavaScript.` 
   * Number
   * String
@@ -26,20 +26,20 @@ Programming is a set of instruction which our computer can read, unde
   * Object
   * Function
 
-### Falsy Values
+### __Falsy Values__
   1. ''
   1. 0
   1. null
   1. undefined
   1. NaN
 
-### Truthy Values
+### __Truthy Values__
   1. 'abc'
   2. 123
   3. Infinity
   4. **.....**
 
-### Comments
+### __Comments__
 - `// This is a single line comment.`
 - `/* This is a multiline comment. */`
 > We use comment for note something and so on...
@@ -80,11 +80,11 @@ There are mainly `three types` of loops.
 <br /><br />
 
 # Arrays
-### What is Array?
+### __What is Array?__
 Array is a `Data Structure` where we can `organize multiple data` under `a single variable`.
 
 
-### Topics
+### __Topics__
 - `Traverse` an Array
 - `Insert`, `Remove` and `Update`
 - We can use `splice()` method to `add`, `delete` and `edit` an array
@@ -93,7 +93,7 @@ Array is a `Data Structure` where we can `organize multiple data` under `a singl
 - `Reverse` array elements
 
 
-## Custom length method
+### __Custom length method__
 ```javascript
 const len = arr => {
     let count = 0
@@ -110,7 +110,7 @@ const len = arr => {
 console.log(len([1, 2, 3, 'a', 1.45, 'B']))  // 6
 console.log(len('Md Arif Hossain')) // 15
 ```
-## Custom search method for array
+### __Custom search method for array__
 ```javascript
 const isFind = (arr, value) => {
     let isFound = false
@@ -129,7 +129,7 @@ const arr = [3, 6, 2, 7, 4]
 console.log( isFind(arr, 7) )  // true
 console.log( isFind(arr, 50) )  // false
 ```
-## Custom reverse method for array
+### __Custom reverse method for array__
 ```javascript
 const reverse = array => {
     for (let i=0; i<(array.length / 2); i++) {
@@ -174,6 +174,15 @@ console.log(reverse([1, 2, 3, 4, 5, 6]))  // [6, 5, 4, 3, 2, 1]
 <br /><br />
 
 # Functional Programming
+### __What is Functional Programming__
+Functional programming is a programming paradigm, a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functioons and avoids changing state and mutable data.
+
+### __Three Main Terms__
+1. `Pure Functions`
+    * It returns the same result if given the same arguments
+    * It does not cause only observable side effects
+2. `First Class Functions`
+3. `Higher Order Functions`
 
 <br /><br />
 

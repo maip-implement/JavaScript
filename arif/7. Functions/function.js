@@ -67,5 +67,5 @@ const person = (name, email) => {
 
 const p1 = person('Arif', 'arif@swfu.edu.cn')
 
-console.log(p1)  // { name: name, email: email }
+console.log(p1)  // { name: 'Arif', email: 'arif.swfu@outlook.com' }
 console.log(p1.name)  // Arif

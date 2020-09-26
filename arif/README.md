@@ -182,6 +182,12 @@ Functional programming is a programming paradigm, a style of building the struct
     * It returns the same result if given the same arguments
     * It does not cause only observable side effects
 2. `First Class Functions`
+    * A Function can be Stored in a Variable
+    * A Function can to Stored in an Array
+    * A Function can to Stored in an Object
+    * We can Create Function as Need
+    * We can Pass Function as an Arguments
+    * We can return Functions from Another Function
 3. `Higher Order Functions`
 
 <br /><br />

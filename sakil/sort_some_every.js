@@ -72,4 +72,4 @@ console.log(res2) //Returns true
 var res3 = arr.some(function(value){
     return value % 2 === 1
 })
-console.log(res3) //Returns true with "arr"
+console.log(res3) //Returns true with "arr" 

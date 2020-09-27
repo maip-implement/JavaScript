@@ -6,3 +6,9 @@ function add(a, b){
     console.log(sum())
 }
 add(10,20)
+
+var z = 10;
+function sub(a, b){
+    return a + b - z
+}
+console.log(sub(10,20))

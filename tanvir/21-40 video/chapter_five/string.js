@@ -124,20 +124,20 @@
 
 //string
 
-// var str = 'Hi'
+var str = 'Hi'
 
-// var length = 0
+var length = 0
 
-// while(true){
-//     if(str.charAt(length) == ''){
-//         break
-//     }else{
-//         length++
-//     }
-// }
+while(true){
+    if(str.charAt(length) == ''){
+        break
+    }else{
+        length++
+    }
+}
 
-// console.log(length)
+console.log(length)
 
 //2
 
-// console.log('running brothers'.length)
+console.log('running brothers'.length)

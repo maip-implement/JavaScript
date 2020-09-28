@@ -1,12 +1,12 @@
 //***** 069 Pure Functions in Javascript | Stack Learner *****
 
-function sqr(n){
-    return n*n
-}
+// function sqr(n){
+//     return n*n
+// }
 
-console.log(sqr(3))
-console.log(sqr(3))
-console.log(sqr(3))
+// console.log(sqr(3))
+// console.log(sqr(3))
+// console.log(sqr(3))
 
 // 9
 // 9

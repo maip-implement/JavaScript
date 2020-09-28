@@ -18,9 +18,9 @@
 
 // 20
 
-var arr1 = [1, 2, 3]
-var arr2 = [5, 7, 9]
-var arr3 = [9, 7, 1]
+// var arr1 = [1, 2, 3]
+// var arr2 = [5, 7, 9]
+// var arr3 = [9, 7, 1]
 
 // var sum1 = 0
 // for(var i = 0; i<arr1.length; i++){
@@ -46,18 +46,69 @@ var arr3 = [9, 7, 1]
 
 // 17
 
-function sumOfArray(arr) {
-    var sum = 0
-    for(var i = 0; i<arr.length; i++){
-        sum += arr[i]
-    }
-    console.log(sum)
-}
+// function sumOfArray(arr) {
+//     var sum = 0
+//     for(var i = 0; i<arr.length; i++){
+//         sum += arr[i]
+//     }
+//     console.log(sum)
+// }
 
-sumOfArray(arr1)
-sumOfArray(arr2)
-sumOfArray(arr3)
+// sumOfArray(arr1)
+// sumOfArray(arr2)
+// sumOfArray(arr3)
 
 // 6
 // 21
 // 1
+
+// ***** 063 Argument Object in Javascript | Stack Learner *****
+
+// function test(a, b, c){
+//     console.log(arguments)
+// }
+
+// test(10,20,30)
+
+// [Arguments] { '0': 10, '1': 20, '2': 30 }
+
+// function test(a, b, c){
+//     for(var i = 0; i<arguments.length; i++){
+//         console.log(arguments[i])
+//     }
+  
+// }
+
+// test(10,20,30)
+
+// 10
+// 20
+// 30
+
+// function test(){
+//     for(var i = 0; i<arguments.length; i++){
+//         console.log(arguments[i])
+//     }
+  
+// }
+
+// test(60,80,390)
+
+// 60
+// 80 
+// 390
+
+
+function addAll(){
+    var sum = 0;
+    for(var i = 0; i<arguments.length; i++){
+        sum += arguments[i]
+    }
+    console.log(sum)
+}
+
+addAll(3, 7, 7)
+addAll(2, 7, 8, 2, 4, 7)
+
+// 17
+// 30

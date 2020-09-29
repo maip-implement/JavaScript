@@ -20,3 +20,18 @@ var per = person.sort(function(a,b){
     return a.age - b.age
 })
 console.log(per)
+
+var res = arr.every(function(value){
+    return value > 0
+})
+console.log(res)
+
+var res2 = arr.every(function(value){
+    return value % 2 === 0
+})
+console.log(res2)
+
+var res3 = arr.some(function(value){
+    return value % 2 === 0
+})
+console.log(res3)

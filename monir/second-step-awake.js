@@ -38,6 +38,12 @@
 
 //switce statement
 
-var date = new Date();
-var today = date.getDAy()
-console.log(today);
+// var date = new Date();
+// var today = date.getDAy()
+// console.log(today);
+
+
+
+
+
+

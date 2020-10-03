@@ -49,11 +49,28 @@ var Operator = function(name, num){
        
        for(let i = 0; i<n_arr.length; i++){
            
-            if(n_arr[2] == 7){
-                console.log("GP")
+            if(n_arr[1] == 7){
+                return 'GP'
+            }else if(n_arr[1] == 6){
+                return 'Airtel'
+            }else if(n_arr[1] == 5){
+                return 'Teletalk'
+            }else if(n_arr[1] == 9){
+                return 'Banglalink'
+            }else if(n_arr[1] == 8){
+                return 'Robi'
             }
        }
     }
+
+    this.show = function(){
+        console.log(`name : ${this.name}`)
+        console.log(`Phone-Number : ${this.num}`)
+        console.log(`Operator : ${this.check()}`)
+    }
 }
 var operator1 = new Operator('abu zubaer', 01729886380)
-operator1.check()
+operator1.show()
+
+var operator2 = new Operator('shajib', 01920735495)
+operator2.show()

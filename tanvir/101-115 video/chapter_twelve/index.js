@@ -189,29 +189,56 @@
 
 //115 Functions Are Object in Javascript | Stack Learner
 
-function test() {
-    console.log('Something')
-}
+// function test() {
+//     console.log('Something')
+// }
 
-console.log(test.name, test.length)
+// console.log(test.name, test.length)
 
-//test 0
+// //test 0
 
-var Rect = new Function('width', 'height', `this.width = width
-this.height = height
+// var Rect = new Function('width', 'height', `this.width = width
+// this.height = height
         
-this.draw = function() {
-    console.log('I am a rectangle')
-    this.printProperties()
-    console.log(this)
+// this.draw = function() {
+//     console.log('I am a rectangle')
+//     this.printProperties()
+//     console.log(this)
                 
-            }
+//             }
         
-            this.printProperties = function(){
-                console.log('My Width is ' + this.width)
-                console.log('My Height is ' + this.height)
-    }`
- )
+//             this.printProperties = function(){
+//                 console.log('My Width is ' + this.width)
+//                 console.log('My Height is ' + this.height)
+//     }`
+//  )
 
- var rect5 = new Rect(4, 5)
- console.log(rect5)
+//  var rect5 = new Rect(4, 5)
+//  console.log(rect5)
+
+
+//116 Bind Call Apply in Javascript | Stack Learner
+
+//  function myFunc(c, d) {
+//      console.log(this)
+//      console.log(this.a + this.b + c + d)
+//  }
+
+ //call, Apply
+ //Bind
+
+//  myFunc.call({a: 40, b: 25}, 10, 5) //80
+//  myFunc.apply({a: 400, b: 250}, [10, 5])    //665
+
+//  myFunc.apply({})
+//  myFunc()
+
+// var testBind = myFunc.bind({a: 7, b:3}, 5, 5)
+// testBind()  //20
+
+// var testBind = myFunc.bind({a: 7, b:3})
+// testBind(5, 10) //25
+
+
+// 117 Pass By Value vs Pass by Reference in Javascript | Stack Learner
+
